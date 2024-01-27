@@ -1,0 +1,36 @@
+body{
+    background-color: #282828;
+    color: #fff;
+}
+
+.cabecalho{
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho .menu li a{
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'chalet';
+}
+
+.cabecalho .menu li a:hover{
+    border-bottom: 2px solid #fff;
+}
